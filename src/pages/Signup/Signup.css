@@ -1,0 +1,28 @@
+.signup__image--container {
+    background-image: url(https://th.bing.com/th/id/OIP.H-vy_fodNqkFMEroHAn5VQHaFj?pid=ImgDet&w=1280&h=960&rs=1);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://img.freepik.com/free-vector/smartphone-with-electronic-commerce-icons_24877-50278.jpg?size=338&ext=jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
